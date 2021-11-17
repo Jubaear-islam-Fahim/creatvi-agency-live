@@ -1,0 +1,246 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project:	Themefy App HTML5 Landing
+Version:	v1
+-------------------------------------------------------------------*/
+
+/**
+*****************************************
+* Table Of content 
+******************************************
+
+*** Home version v1 *** 
+# blog
+	* Navigation area start
+	* agency benner start
+	* blog start 
+	* footer start
+	* Copy Start
+
+*/ 
+ 
+/*------------------------------------*\
+	Default style
+\*------------------------------------*/
+.singlebg {
+	background-image: url(../img/blog/h1.jpg);
+}
+
+.float {
+	float: left;
+}
+.coment {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+.coment-left {}
+.coment-left h5 {
+    padding: 10px 0;
+}
+.coment-right {}
+.coment-right h5 {
+	display: inline-block;
+}
+
+.single-rejom-title {
+    padding: 25px 0 20px 0;
+}
+.comment-text {}
+.comment-item {
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #000;
+    padding: 30px 0;
+    border-bottom: 1px solid #000;
+} 
+.come2 {
+    margin-left: 140px;
+}
+.come3 {
+    margin-left: 230px;
+}
+.comment-item-img {}
+.comment-item-img img{
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+.comment-item-text {}
+.comment-item-text h6 {}
+.comment-item-text span {
+    font-weight: 500;
+    font-size: 13px;
+}
+.comment-item-text p {
+    font-size: 15px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+ 
+
+#blog-area {
+	background: #f6f6f6;
+	color: #555877
+}
+.blog-item {
+	background: #fff;
+	transition: all .5s
+}
+.blog-item:hover {
+	transform: scale(1.1);
+}
+.blog-img {}
+.blog-img img {
+	width: 100%;
+	height: auto;
+}
+.blog-text {
+    padding: 20px 10px;
+}
+.blog-text h3 {}
+.blog-text p {
+    padding: 13px 0;
+}
+.blog-text a {
+	border: 1px solid #555877;
+	color: #555877;
+}
+.copyright-socile a {
+    color: #555877;
+    margin: 0 7px;
+    font-size: 25px;
+    padding: 6px 0;
+    display: inline-block;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.single-input {}
+.single-input input {
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+.single-input textarea {
+    width: 100%;
+    height: 185px;
+    padding: 20px;
+}
+.single-input .btn {
+    background: #232044;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 500;
+    float: right;
+    margin-top: 25px;
+}
+button.btn.subsecribe-btn {
+	background: #2076ff;
+    color: #fff;
+	border-radius: 0;
+}
+
+section#error-aera {
+    background-image: url(../img/blog/soon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 80px 0;
+}
+.error-text {
+    background-image: url(../img/error/1.png);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 9% auto;
+    padding: 85px 0;
+} 
+.error-text span {
+    font-size: 120px;
+    font-weight: 600;
+	color: #fff;
+}
+.error-text h2 {
+    font-size: 65px;
+	color: #fff;
+}
+.error-text p {
+    font-size: 27px;
+    padding-top: 15px;
+	color: #fff;
+}
+ 
+.error-time-down {
+    text-align: center;
+    width: 100%;
+}
+.down-text h2 {
+    padding: 35px 0;
+	color: #fff;
+}
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    border-top: 2px dashed #fff;
+    border-bottom: 2px dashed #fff;
+    width: 100%;
+}
+#error-v2 #clockdiv { 
+    color: #555877; 
+}
+
+#clockdiv > div {
+    border-radius: 3px;
+    display: inline-block;
+    border-left: 2px dashed #fff;
+    width: 10%;
+    padding: 15px 0;
+}
+#clockdiv > div.dfa { 
+    border-right: 2px dashed #fff;
+}
+#clockdiv div > span {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 600;
+}
+.smalltext {
+    padding-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.soon-text p {
+    color: #fff;
+    padding: 30px 0;
+}
+.soon-input h4 {
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.social-icon h4 {
+    font-weight: 600;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.social-icon a {
+    color: #fff;
+    font-size: 25px;
+    margin: 0 4px;
+}
